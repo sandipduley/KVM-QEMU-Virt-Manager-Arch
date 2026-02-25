@@ -33,7 +33,7 @@ Expected output:
 Install core virtualization components:
 
 ```bash
-sudo pacman -S --needed \
+sudo pacman -Syy --needed \
   qemu-full \
   virt-manager \
   libvirt \
